@@ -1,0 +1,62 @@
+
+
+body{
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.section{
+    background-image:url('img/pexels-fauxels-3184192.jpg'); 
+	background-size:cover;
+    background-position: center;
+    height:400px;
+  
+
+}
+
+.texto{
+    background-color: bisque;
+    font-size: 30px;
+}
+
+.texto h1{
+   text-align: center;
+}
+
+.net{
+    display: flex;
+}
+
+.imagem{
+    position: relative;
+    overflow: hidden;
+    max-width: 320px;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .imagemm{
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .imagem img{
+    width: 100%;
+    
+  }
+  .overlay{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: #0000007a;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imagem .overlay:hover{
+    opacity: 0;
+  }
