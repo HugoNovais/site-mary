@@ -119,7 +119,7 @@ body {
     height: 300px;
     background-color: chartreuse;
     margin-right: 500px;
-    z-index: 2;
+    z-index: 4;
     display: none;
     position: absolute;
     top: 400px;
@@ -135,12 +135,13 @@ body {
     cursor: pointer;
 }
 
-.emmo::before {
+.overlay {
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
+    z-index: 3;
     content: '';
     background-color: rgba(0, 0, 0, 0.6);
     display: none;

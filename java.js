@@ -3,17 +3,19 @@ function mostrar() {
 }
 
 function menu() {
-
     let modal = document.querySelector('.modal')
+    let overlay = document.querySelector('.overlay')
 
     modal.style.display = 'block';
-    document.getElementsById("emmo").style.display = 'block';
+    overlay.style.display = 'block';
+
 }
 
 function fechar() {
     let modal = document.querySelector('.modal')
-
+    let overlay = document.querySelector('.overlay')
     modal.style.display = 'none';
+    overlay.style.display = 'none';
 }
 
 //function tira() {
