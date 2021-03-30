@@ -2,18 +2,20 @@ function mostrar() {
     document.getElementById("mostrar").style.display = 'block';
 }
 
-function menu(){
-  let modal = document.querySelector('.modal')
+function menu() {
 
-  modal.style.display='block';
+    let modal = document.querySelector('.modal')
+
+    modal.style.display = 'block';
+    document.getElementsById("emmo").style.display = 'block';
 }
 
-function fechar (){
-    let modal= document.querySelector('.modal')
+function fechar() {
+    let modal = document.querySelector('.modal')
 
-    modal.style.display='none';
+    modal.style.display = 'none';
 }
 
-function tira() {
-    document.getElementsByClassName("emmo").style.display = 'block';
-}
+//function tira() {
+
+//}

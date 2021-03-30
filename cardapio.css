@@ -1,158 +1,153 @@
-body{
-  top: 0;
-  margin: 0;
-  
+body {
+    top: 0;
+    margin: 0;
 }
+
+
 /* parte do começo do site */
-.principal{
-  display: flex;
 
-  background:rgb(153, 226, 153);
-  width: 100%;
-  height:500px;
-  border: 1 solid ;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
+.principal {
+    display: flex;
+    background: rgb(153, 226, 153);
+    width: 100%;
+    height: 500px;
+    border: 1 solid;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
 }
 
-.img{
- position: relative;
-  z-index: 3;
-  margin-left: 800px;
-  margin-top: 80px;
-  
-
- 
+.img {
+    position: relative;
+    z-index: 3;
+    margin-left: 800px;
+    margin-top: 80px;
 }
 
-.texto{
-  position:absolute;
-   
-   max-width: 350px;
-   margin-top: 80px;
-   margin-left: 400px;
-   font-size: 30px;
+.texto {
+    position: absolute;
+    max-width: 350px;
+    margin-top: 80px;
+    margin-left: 400px;
+    font-size: 30px;
 }
+
 
 /* parte de baixo */
-.menu{
-  display: flex;
+
+.menu {
+    display: flex;
 }
 
-.nomes{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-top: 100px;
-  margin-left: 50px;
-  
- 
+.nomes {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
- .nomes h1{
-  margin-left: 50px;
-  margin-bottom: 50px;
+.nomes h1 {
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
-.bloco1{
-  width: 200px;
-  height: 50px;
-  background: blue;
-  border: 1 solid;
-  border-radius: 50px;
-  margin-bottom: 10px;
+.bloco1 {
+    width: 200px;
+    height: 50px;
+    background: blue;
+    border: 1 solid;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 
- .bloco1 img{
-  margin-left: 20px;
-  margin-top: 8px;
-  
-}
-.bloco2{
-  width: 200px;
-  height: 50px;
-  background: blue;
-  border: 1 solid;
-  border-radius: 50px;
-  margin-bottom: 10px;
-}
-.bloco2 img{
-  margin-left: 20px;
-  margin-top: 8px;
-  
-}
-.bloco3{
-  width: 200px;
-  height: 50px;
-  background: blue;
-  border: 1 solid;
-  border-radius: 50px;
-  margin-bottom: 300px;
+.bloco1 img {
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.bloco3 img{
-  margin-left: 20px;
-  margin-top: 8px;
-  
+.bloco2 {
+    width: 200px;
+    height: 50px;
+    background: blue;
+    border: 1 solid;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 
-.pratos{
-  display: none;
-  flex: 2;
- 
- 
+.bloco2 img {
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.quadrado{
-  display: flex;
-  width: 50%;
-  height: 300px;
-  background: gold;
-  margin-top: 50px;
-  border: 1 solid;
-  border-radius: 50px;
+.bloco3 {
+    width: 200px;
+    height: 50px;
+    background: blue;
+    border: 1 solid;
+    border-radius: 50px;
+    margin-bottom: 300px;
 }
 
-.texto_quadrado{
-  max-width: 100px;
-  margin-top: 50px;
+.bloco3 img {
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
-.modal{
-  width: 500px;
-  height: 300px;
-  background-color: chartreuse;
-  margin-right: 500px;
-  z-index: 2;
-  display: none;
+.pratos {
+    display: none;
+    flex: 2;
 }
 
-.fechar{
-  width: 30px;
-  height: 30px;
-  background-color: black;
-  border-radius: 50%;
-  float: right;
-  cursor: pointer;
+.quadrado {
+    display: flex;
+    width: 50%;
+    height: 300px;
+    background: gold;
+    margin-top: 50px;
+    border: 1 solid;
+    border-radius: 50px;
 }
 
-.emmo::before{
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  content: '';
-  background-color:rgba(0, 0, 0, 0.6);
-  display: none;
+.texto_quadrado {
+    max-width: 100px;
+    margin-top: 50px;
 }
 
-.emmo{
-  position: relative;
-  height: 100%;
-  width: 100%;
-  
-  
- 
+.modal {
+    width: 500px;
+    height: 300px;
+    background-color: chartreuse;
+    margin-right: 500px;
+    z-index: 2;
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+
+.fechar {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+}
+
+.emmo::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+.emmo {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }

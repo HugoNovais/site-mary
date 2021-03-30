@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="cardapio.css">
     <script src="java.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-  <div  class="emmo">
-    <section class="principal">
-      
-      <div class="img">
-      <img src="img/cozinhando.png" alt="" height="350px">
-      </div>
-      <div class="texto">
-        <h2>
-          COZINHA É UMA FORMA AFETIVA DE REUNIR FAMILIA E AMIGOS
-        </h2>
-        </div>
-    </section>
+    <div class="emmo" id="emmo">
+        <section class="principal">
 
-    <section class="menu">
- <div class="nomes">
-   <h1>PRATOS</h1>
-    <div onclick="mostrar()" class="bloco1" > <img src="img/diet.png" alt="" height="30px"></div>
-   
-    <div onclick="mostrar()" class="bloco2" ><img src="img/breakfast (1).png" alt="" height="30px"></div>
-    <div onclick="mostrar()" class="bloco3"><img src="img/meal.png" alt="" height="30px"></div>
- </div>
+            <div class="img">
+                <img src="img/cozinhando.png" alt="" height="350px">
+            </div>
+            <div class="texto">
+                <h2>
+                    COZINHA É UMA FORMA AFETIVA DE REUNIR FAMILIA E AMIGOS
+                </h2>
+            </div>
+        </section>
 
- <div class=  "pratos"  id="mostrar">
-   <div class="quadrado">
-   <img    src="img/salda.png" alt=""  height="300px">
+        <section class="menu">
+            <div class="nomes">
+                <h1>PRATOS</h1>
+                <div onclick="mostrar()" class="bloco1"> <img src="img/diet.png" alt="" height="30px"></div>
 
-   <div class="texto_quadrado">
-      <p> SALADA GOSTOSA</p>
-      <p> boa para caralho, sabe aquela
-        salada boa, ela é assim , falou?
-        so isso mesmo irmão
-            
-   </p>
+                <div onclick="mostrar()" class="bloco2"><img src="img/breakfast (1).png" alt="" height="30px"></div>
+                <div onclick="mostrar()" class="bloco3"><img src="img/meal.png" alt="" height="30px"></div>
+            </div>
 
-   <button onclick="menu(); tira()" style="width:30px; height: 30px;">+</button>
-   
-  <div   class="modal">
-  <div onclick="fechar()" class="fechar"></div>
+            <div class="pratos" id="mostrar">
+                <div class="quadrado">
+                    <img src="img/salda.png" alt="" height="300px">
 
-  </div>
-   </div>
-  </div>
- </div>
-    </section>
+                    <div class="texto_quadrado">
+                        <p> SALADA GOSTOSA</p>
+                        <p> boa para caralho, sabe aquela salada boa, ela é assim , falou? so isso mesmo irmão
+
+                        </p>
+
+                        <button onclick="menu(); " style="width:30px; height: 30px;">+</button>
+
+                        <div class="modal">
+                            <div onclick="fechar()" class="fechar"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
-  
 
-   
-   
 
-  </div>
+
+
+
+    </div>
 </body>
 
 </html>
