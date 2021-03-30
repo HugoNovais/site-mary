@@ -5,42 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cardapio.css">
+    <script src="java.js"></script>
     <title>Document</title>
 </head>
 <body>
-   
-    <div class="imagemm">
+  <div  class="emmo">
+    <section class="principal">
       
-        <section class= "section">
-            <h1>CARDAPIO</h1>
-            <span class="overlay"></span>
+      <div class="img">
+      <img src="img/cozinhando.png" alt="" height="350px">
+      </div>
+      <div class="texto">
+        <h2>
+          COZINHA É UMA FORMA AFETIVA DE REUNIR FAMILIA E AMIGOS
+        </h2>
         </div>
-     
     </section>
 
-    <section class="texto">
-        <h1>PRATOS </h1>
+    <section class="menu">
+ <div class="nomes">
+   <h1>PRATOS</h1>
+    <div onclick="mostrar()" class="bloco1" > <img src="img/diet.png" alt="" height="30px"></div>
+   
+    <div onclick="mostrar()" class="bloco2" ><img src="img/breakfast (1).png" alt="" height="30px"></div>
+    <div onclick="mostrar()" class="bloco3"><img src="img/meal.png" alt="" height="30px"></div>
+ </div>
+
+ <div class=  "pratos"  id="mostrar">
+   <div class="quadrado">
+   <img    src="img/salda.png" alt=""  height="300px">
+
+   <div class="texto_quadrado">
+      <p> SALADA GOSTOSA</p>
+      <p> boa para caralho, sabe aquela
+        salada boa, ela é assim , falou?
+        so isso mesmo irmão
+            
+   </p>
+
+   <button onclick="menu(); tira()" style="width:30px; height: 30px;">+</button>
+   
+  <div   class="modal">
+  <div onclick="fechar()" class="fechar"></div>
+
+  </div>
+   </div>
+  </div>
+ </div>
     </section>
 
-    <section class="net">
-    <div class="imagem">
-        <img src="img/salada.jpg" alt="">
-        <span class="overlay"></span>
-      </div>
-
-      <div class="imagem">
-        <img src="img/pratofeito.jpg" alt="">
-        <span class="overlay"></span>
-      </div>
-
-      <div class="imagem">
-        <img src="img/prato.jpg" alt="">
-        <span class="overlay"></span>
-      </div>
-
-    </section>
 
 
+  
 
+   
+   
+
+  </div>
 </body>
+
 </html>
