@@ -2,7 +2,12 @@ header {
     background-color: #dfe6e9;
 }
 
+nav {
+    display: inline-block;
+}
+
 a {
+    color: black;
     display: inline-block;
 }
 
