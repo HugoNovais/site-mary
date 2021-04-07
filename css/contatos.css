@@ -1,0 +1,50 @@
+#divOne {
+    background-color: #576574;
+    text-align: center;
+}
+
+#img1 {
+    width: 90px;
+}
+
+#img2 {
+    width: 67px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#trans:hover {
+    transform: scale(1.1);
+}
+
+#trans2:hover {
+    transform: scale(1.1);
+}
+
+header {
+    background-color: #576574;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 4px 4px 0 #54a0ff;
+}
+
+p {
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 400;
+    color: #FFF;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Lobster', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 2px;
+}
