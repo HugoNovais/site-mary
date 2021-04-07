@@ -1,19 +1,23 @@
 #divOne {
-    background-color: #576574;
     text-align: center;
 }
 
 #navTwo {
     position: relative;
-    left: 700px;
-    top: -455px;
+    left: 740px;
+    top: -420px;
+    transition: transform 300ms linear;
+}
+
+nav:hover {
+    transform: scale(1.1);
 }
 
 #p2 {
     top: -120px;
     padding-right: 300px;
     position: relative;
-    left: -200px;
+    left: -290px;
 }
 
 #img1 {
@@ -54,13 +58,19 @@
 
 #button {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #706fd3;
     color: white;
     width: 387px;
     height: 31px;
+    transition: opacity 190ms ease-in-out;
+}
+
+#button:hover {
+    opacity: 0.6;
 }
 
 header {
+    background-image: url('https://www.receiteria.com.br/wp-content/uploads/receitas-de-salada-mista-2.jpg');
     background-color: #576574;
     align-items: center;
     min-height: 200px;
@@ -68,7 +78,7 @@ header {
 }
 
 nav {
-    background: rgba(0, 0, 0, 0.616);
+    background: rgba(0, 0, 0, 0.87);
     padding: 13% 10%;
     height: 100%;
     display: -webkit-box;
@@ -81,23 +91,28 @@ nav {
     max-height: 120px;
     margin-left: 80px;
     position: relative;
-    top: 50px;
+    top: 85px;
+    left: 90px;
+    transition: transform 300ms linear;
+    opacity: 0.9;
 }
 
 h1 {
     font-family: 'Lobster', sans-serif;
     font-size: 55px;
     text-align: center;
-    color: #FFF;
+    color: #000;
     text-shadow: 4px 4px 0 #54a0ff;
 }
 
 h2 {
+    display: flex;
     font-family: 'Kiwi Maru', serif;
     font-weight: 500;
+    font-size: 29px;
+    color: #FFF;
     position: relative;
     top: -150px;
-    text-align: center;
 }
 
 p {
@@ -109,7 +124,8 @@ p {
     color: #FFF;
     position: relative;
     top: -150px;
-    left: -60px;
+    left: -80px;
+    padding-right: 300px;
 }
 
 a {
@@ -121,18 +137,19 @@ a {
     margin-left: 2px;
     position: relative;
     top: -65px;
+    left: -30px;
 }
 
 label,
 input,
 textarea {
     position: relative;
-    left: -200px;
+    left: -285px;
     top: -70px;
 }
 
 button {
     position: relative;
     top: -45px;
-    left: -200px;
+    left: -285px;
 }
