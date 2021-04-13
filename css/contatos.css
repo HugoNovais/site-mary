@@ -62,11 +62,11 @@ nav:hover {
     color: white;
     width: 387px;
     height: 31px;
-    transition: opacity 190ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
 }
 
 #button:hover {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 header {
